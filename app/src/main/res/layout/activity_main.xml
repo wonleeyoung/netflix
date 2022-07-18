@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    android:orientation="vertical">
+    <ImageView
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:adjustViewBounds="true"
+        app:layout_constraintWidth_percent="0.3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintWidth_percent="0.08"
+        >
+    <ImageButton
+        android:id="@+id/pencil_btn"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@color/black"
+        android:src="@drawable/pencil" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        app:layout_constraintVertical_bias="0.23"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="wrap_content"
+        android:text="넷플릭스를 시청할 프로필을 선택하세요."
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+    <TableLayout
+        app:layout_constraintVertical_bias="0.7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.7"
+        app:layout_constraintHeight_percent="0.6"
+        android:stretchColumns="0,1">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="5dp"
+                android:layout_margin="15dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.06"
+                app:layout_constraintHorizontal_bias="0.95"
+                app:layout_constraintWidth_percent="0.08"
+                >
+                <ImageButton
+
+                    android:id="@+id/number1"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                    android:src="@drawable/grid4" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="5dp"
+                android:layout_margin="15dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.06"
+                app:layout_constraintHorizontal_bias="0.95"
+                app:layout_constraintWidth_percent="0.08"
+                >
+                <ImageButton
+
+                    android:id="@+id/number2"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                    android:src="@drawable/grid3" />
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이원영"
+                android:textAlignment="center"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:text="원영"
+                android:textColor="@color/white"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+
+                app:cardCornerRadius="5dp"
+                android:layout_margin="15dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.06"
+                app:layout_constraintHorizontal_bias="0.95"
+                app:layout_constraintWidth_percent="0.08"
+                >
+                <ImageButton
+
+                    android:id="@+id/number3"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                    android:src="@drawable/grid2" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="5dp"
+                android:layout_margin="15dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.06"
+                app:layout_constraintHorizontal_bias="0.95"
+                app:layout_constraintWidth_percent="0.08"
+                >
+                <ImageButton
+
+                    android:id="@+id/number4"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                    android:src="@drawable/grid1" />
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="잭"
+                android:textAlignment="center"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:text="이원용"
+                android:textColor="@color/white"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="5dp"
+                android:layout_margin="15dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.06"
+                app:layout_constraintHorizontal_bias="0.95"
+                app:layout_constraintWidth_percent="0.08"
+                >
+                <ImageButton
+
+                    android:id="@+id/number5"
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                    android:src="@drawable/grid5" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="5dp"
+                android:layout_margin="15dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.06"
+                app:layout_constraintHorizontal_bias="0.95"
+                app:layout_constraintWidth_percent="0.08"
+                >
+                <ImageButton
+
+
+                    android:adjustViewBounds="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                     />
+            </androidx.cardview.widget.CardView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="프로필 추가"
+                android:textAlignment="center"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="프로필 추가"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
