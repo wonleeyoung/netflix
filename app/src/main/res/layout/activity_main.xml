@@ -118,12 +118,14 @@
 
         <TableRow>
             <TextView
+                android:id="@+id/tnum1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="이원영"
                 android:textAlignment="center"
                 android:textColor="@color/white"/>
             <TextView
+                android:id="@+id/tnum2"
                 android:layout_width="wrap_content"
                 android:textAlignment="center"
                 android:layout_height="wrap_content"
@@ -187,12 +189,14 @@
         </TableRow>
         <TableRow>
             <TextView
+                android:id="@+id/tnum3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="잭"
                 android:textAlignment="center"
                 android:textColor="@color/white"/>
             <TextView
+                android:id="@+id/tnum4"
                 android:layout_width="wrap_content"
                 android:textAlignment="center"
                 android:layout_height="wrap_content"
