@@ -54,33 +54,33 @@ class SecondActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.e("message","onStart")
+        Log.e("call","onStart1")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.e("message","onResume")
+        Log.e("call","onResume1")
 
     }
     override fun onPause() {
         super.onPause()
-        Log.e("message","onPause")
+        Log.e("call","onPause1")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.e("message","onStop")
+        Log.e("call","onStop1")
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.e("message","onRestart")
+        Log.e("call","onRestart1")
 
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.e("message","onDestroy")
+        Log.e("call","onDestroy1")
 
     }
 

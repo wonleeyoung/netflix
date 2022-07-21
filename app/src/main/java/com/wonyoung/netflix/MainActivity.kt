@@ -57,7 +57,8 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
     }
-
+//다시 앱으로 돌아올 때 맨 마지막 로그인한 이름으로 들어가지고 이 화면은 종료된다.
+//onStop에서 안하는 이유는 다음 액티비티 resume까지 되고 실행되니깐
     override fun onRestart() {
         super.onRestart()
         val intent = Intent(this,SecondActivity::class.java)

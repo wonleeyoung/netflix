@@ -126,21 +126,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
-                    <ImageView
+                    <ImageButton
                         android:id="@+id/rank1"
-                        android:clickable="true"
                         android:adjustViewBounds="true"
                         android:layout_width="150dp"
                         android:layout_height="180dp"
                         android:background="@drawable/rank1"/>
-                    <ImageView
+                    <ImageButton
                         android:id="@+id/rank2"
                         android:clickable="true"
                         android:adjustViewBounds="true"
                         android:layout_width="150dp"
                         android:layout_height="180dp"
                         android:background="@drawable/rank3"/>
-                    <ImageView
+                    <ImageButton
                         android:id="@+id/rank3"
                         android:clickable="true"
                         android:adjustViewBounds="true"
@@ -182,11 +181,65 @@
                 android:textColor="@color/white"
                 android:textSize="24dp"
                 android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <HorizontalScrollView
 
-
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/co1"
+                        android:adjustViewBounds="true"
+                        android:layout_width="130dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/co1"/>
+                    <ImageButton
+                        android:id="@+id/co2"
+                        android:clickable="true"
+                        android:adjustViewBounds="true"
+                        android:layout_width="130dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/co2"/>
+                    <ImageButton
+                        android:id="@+id/co3"
+                        android:clickable="true"
+                        android:adjustViewBounds="true"
+                        android:layout_width="130dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/co3"/>
+                    <ImageView
+                        android:id="@+id/co4"
+                        android:clickable="true"
+                        android:adjustViewBounds="true"
+                        android:layout_width="130dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/co1"/>
+                    <ImageView
+                        android:id="@+id/co5"
+                        android:clickable="true"
+                        android:adjustViewBounds="true"
+                        android:layout_width="130dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/co2"/>
+                    <ImageView
+                        android:id="@+id/co6"
+                        android:clickable="true"
+                        android:adjustViewBounds="true"
+                        android:layout_width="130dp"
+                        android:layout_height="180dp"
+                        android:background="@drawable/co3"/>
+                </LinearLayout>
+            </HorizontalScrollView>
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
+
 
 
 
