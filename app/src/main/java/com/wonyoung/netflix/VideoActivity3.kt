@@ -14,8 +14,6 @@ class VideoActivity3 : AppCompatActivity() {
     }
     override fun onStop() {
         super.onStop()
-        var intent = Intent(this,SecondActivity::class.java)
-        startActivity(intent)
         finish()
         Log.e("call","onStop")
     }

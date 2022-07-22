@@ -15,7 +15,7 @@
     <item android:id="@+id/new1"
         app:showAsAction="ifRoom"
         android:enabled="true"
-        android:icon="@drawable/new1"
+        android:icon="@drawable/newnew"
         android:title="NEW HOT"/>
     <item android:id="@+id/cotent1"
         app:showAsAction="ifRoom"

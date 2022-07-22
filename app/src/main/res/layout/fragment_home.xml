@@ -19,13 +19,51 @@
             android:fitsSystemWindows="true"
             app:layout_scrollFlags="scroll|enterAlways">
 
-            <androidx.appcompat.widget.Toolbar
-                app:menu="@menu/menu"
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:padding="10dp"
+
+                app:menu="@menu/homemenu"
+                android:background="#000000"
                 android:orientation="vertical"
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:layout_collapseMode="pin" />
+                app:layout_collapseMode="parallax">
+                <ImageView
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo"/>
+                <androidx.cardview.widget.CardView
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="wrap_content"
+                    app:cardCornerRadius="3dp"
+                    android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/character"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/grid2"/>
+                </androidx.cardview.widget.CardView>
+                <ImageButton
+                    android:id="@+id/search"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/glass"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.87"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
@@ -197,7 +235,7 @@
                         android:adjustViewBounds="true"
                         android:layout_width="130dp"
                         android:layout_height="180dp"
-                        android:background="@drawable/co1"/>
+                        android:background="@drawable/co4"/>
                     <ImageButton
                         android:id="@+id/co2"
                         android:clickable="true"
@@ -218,7 +256,7 @@
                         android:adjustViewBounds="true"
                         android:layout_width="130dp"
                         android:layout_height="180dp"
-                        android:background="@drawable/co1"/>
+                        android:background="@drawable/co4"/>
                     <ImageView
                         android:id="@+id/co5"
                         android:clickable="true"

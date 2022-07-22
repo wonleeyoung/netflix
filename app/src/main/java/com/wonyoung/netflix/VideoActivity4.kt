@@ -13,12 +13,11 @@ class VideoActivity4 : AppCompatActivity() {
 
     override fun onPause() {
         super.onPause()
-        finish()
+
     }
     override fun onStop() {
         super.onStop()
-        var intent = Intent(this,SecondActivity::class.java)
-        startActivity(intent)
+        finish()
 
         Log.e("call","onStop")
     }

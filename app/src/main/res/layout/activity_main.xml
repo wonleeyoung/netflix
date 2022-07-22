@@ -17,7 +17,7 @@
         app:layout_constraintWidth_percent="0.3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logo1" />
 
     <androidx.cardview.widget.CardView
 
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="wrap_content"
-        app:layout_constraintVertical_bias="0.23"
+        app:layout_constraintVertical_bias="0.22"
         app:layout_constraintWidth_percent="0.8"
         android:layout_height="wrap_content"
         android:text="넷플릭스를 시청할 프로필을 선택하세요."
@@ -62,7 +62,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintWidth_percent="0.7"
-        app:layout_constraintHeight_percent="0.6"
+        app:layout_constraintHeight_percent="0.63"
         android:stretchColumns="0,1">
         <TableRow
             android:layout_width="wrap_content"

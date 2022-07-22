@@ -5,16 +5,18 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
-        <entry key="app/src/main/res/layout/activity_second.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_personal.xml" value="0.18623124448367168" />
+        <entry key="app/src/main/res/layout/activity_second.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.34765625" />
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.2398005439709882" />
         <entry key="app/src/main/res/layout/activity_video.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_video2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_video3.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_video4.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dialog_loading.xml" value="0.15904232578024796" />
         <entry key="app/src/main/res/layout/fragment_content.xml" value="0.2398005439709882" />
         <entry key="app/src/main/res/layout/fragment_game.xml" value="0.15989739204788372" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/rv_item.xml" value="0.15904232578024796" />
         <entry key="app/src/main/res/menu/homemenu.xml" value="0.15904232578024796" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.335" />
