@@ -34,31 +34,31 @@ class homeFragment : Fragment() {
         binding.root.findViewById<TextView>(R.id.view_content).setText(name1+" 님이 시청 중인 콘텐츠")
 
         when(Icon1){
-            1->  binding.root.findViewById<ImageButton>(R.id.character).setBackgroundResource(R.drawable.grid4)
-            2->  binding.root.findViewById<ImageButton>(R.id.character).setBackgroundResource(R.drawable.grid3)
-            3->  binding.root.findViewById<ImageButton>(R.id.character).setBackgroundResource(R.drawable.grid2)
-            4->  binding.root.findViewById<ImageButton>(R.id.character).setBackgroundResource(R.drawable.grid1)
+            1->  binding.character.setBackgroundResource(R.drawable.grid4)
+            2->  binding.character.setBackgroundResource(R.drawable.grid3)
+            3->  binding.character.setBackgroundResource(R.drawable.grid2)
+            4->  binding.character.setBackgroundResource(R.drawable.grid1)
         }
 
 
 
-        binding.root.findViewById<ImageButton>(R.id.play).setOnClickListener {
+        binding.play.setOnClickListener {
             var intent = Intent(getActivity(),VideoActivity::class.java)
             startActivity(intent)
         }
-        binding.root.findViewById<ImageButton>(R.id.rank1).setOnClickListener {
+        binding.rank1.setOnClickListener {
             var intent = Intent(getActivity(), VideoActivity2::class.java)
             startActivity(intent)
         }
-        binding.root.findViewById<ImageButton>(R.id.rank2).setOnClickListener {
+        binding.rank2.setOnClickListener {
             var intent = Intent(getActivity(),VideoActivity3::class.java)
             startActivity(intent)
         }
-        binding.root.findViewById<ImageButton>(R.id.rank3).setOnClickListener {
+        binding.rank3.setOnClickListener {
             var intent = Intent(getActivity(),VideoActivity4::class.java)
             startActivity(intent)
         }
-        binding.root.findViewById<ImageButton>(R.id.character).setOnClickListener {
+        binding.character.setOnClickListener {
             var intent = Intent(getActivity(),PersonalActivity::class.java)
             startActivity(intent)
             activity?.finish()
