@@ -9,6 +9,7 @@ import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationBarView
 import com.wonyoung.netflix.databinding.ActivitySecondBinding
@@ -46,7 +47,7 @@ class SecondActivity : AppCompatActivity() {
         newFragment.arguments = bundle
         contentFragment.arguments = bundle
 
-        supportFragmentManager.beginTransaction().add(R.id.frame, homeFragment).commit()
+        supportFragmentManager.beginTransaction().replace(R.id.frame, homeFragment).commit()
 
         binding.bottomNav.setOnItemSelectedListener(onNavigationItemSelectedListener)
 
@@ -54,6 +55,7 @@ class SecondActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
+
         Log.e("call","onStart1")
     }
 

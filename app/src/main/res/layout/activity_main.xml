@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="wrap_content"
-        app:layout_constraintVertical_bias="0.22"
+        app:layout_constraintVertical_bias="0.18"
         app:layout_constraintWidth_percent="0.8"
         android:layout_height="wrap_content"
         android:text="넷플릭스를 시청할 프로필을 선택하세요."
@@ -54,7 +54,7 @@
         android:textSize="20sp"
         android:textColor="@color/white"/>
     <TableLayout
-        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintVertical_bias="0.63"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -273,8 +273,26 @@
                 android:textAlignment="center"
                 android:textColor="@color/black"/>
         </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="프로필 추가"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="프로필 추가"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
 
     </TableLayout>
+
 
 
 

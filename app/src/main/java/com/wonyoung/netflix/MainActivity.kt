@@ -4,6 +4,7 @@ import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.recyclerview.widget.RecyclerView
 import com.wonyoung.netflix.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -65,9 +66,6 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
-
-
-
 
 
 }

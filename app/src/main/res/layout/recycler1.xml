@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:background="@color/black">
+    >
     <androidx.cardview.widget.CardView
         android:layout_margin="5dp"
         app:cardCornerRadius="20dp"
@@ -38,6 +38,16 @@
         android:layout_height="wrap_content"
         android:text="전략"
         android:textColor="#7B7B7B" />
+        <ImageButton
+            android:id="@+id/imbtn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="30dp"
+            app:layout_constraintHorizontal_bias="0.65"
+            android:layout_height="30dp"/>
+
 
         <CheckBox
             app:layout_constraintBottom_toBottomOf="parent"
